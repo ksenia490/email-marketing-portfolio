@@ -181,6 +181,11 @@ p { margin: 0; }
   line-height: 1.4;
 }
 
+.platform_name {
+  font-weight: 700;
+  color: var(--ink);
+}
+
 /* ============ WORK / CASES ============ */
 .work { padding: 40px 0 40px; }
 
@@ -296,6 +301,12 @@ p { margin: 0; }
 }
 .case__lead {
   max-width: 520px;
+  font-size: 16px;
+  color: var(--ink-soft);
+  margin: 0 0 24px;
+}
+
+.case__lead_wide {
   font-size: 16px;
   color: var(--ink-soft);
   margin: 0 0 24px;
